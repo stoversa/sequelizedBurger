@@ -15,7 +15,7 @@ To use this application:
 1. Ensure that Node.js, npm, and MySQL are installed on your machine. For instructions, see the Technologies Used section below.
 - Next, clone this repo to your local machine:
 ```
-git clone git@github.com:stoversa/burger.git
+git clone git@github.com:stoversa/sequelizedBurger.git
 ```
 2. Open the repo and execute in the bash terminal. Doing so should install the cTable, inquirer, and MySQL npm packages:
 ```
@@ -40,7 +40,7 @@ source schema.sql
 exit
 ```
 
-7. Update the connections.js file with your MySQL credentials. Failing to do this will not allow the application to run properly.
+7. Update the config.json file with your MySQL database credentials. Failing to do this will not allow the application to run properly.
 
 8. Run the application from the command line:
 ```
