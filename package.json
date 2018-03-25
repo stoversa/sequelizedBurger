@@ -1,0 +1,27 @@
+{
+  "name": "sequelizedBurger",
+  "version": "1.0.0",
+  "description": "## Overview A simple Node/Handlebars application developed for the UNC Coding Bootcamp. It allows users to use persistant data to log the types of burgers they would like to devour, and inventory those burgers they have already consumed.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoversa/sequelizedBurger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoversa/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/stoversa/sequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
