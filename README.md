@@ -7,7 +7,7 @@ A simple Node/Handlebars application developed for the UNC Coding Bootcamp. It a
 - [Node.js and npm](https://nodejs.org/en/download/ "Download Node.js and npm"). First, this application relies on both Node.js and npm to download Node packages and to run the application. Users can download the latest versions of both using the link to the left.
 - [MySQL](https://www.mysql.com/ "MySQL") - This application assumes users have both MySQL installed, and the [MySQL npm Package](https://www.npmjs.com/package/mysql "MySQL npm Package") installed as well. 
 - [Handlebars](https://handlebarsjs.com/ "Handlebars") - Handlebars is a templating engine for Node that serves up views easily.
-- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/ "Download MySQL Workbench") (optional) - A handy visual database design tool that can be useful for creating and mantaining databases. The [Workbench Manual](https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-new.html "To Manual") provides helpful steps for making the initial configuration to use MySQL on your local machine. Feel free to use this instead of implementation steps 3+ below.
+- [Sequelize](http://docs.sequelizejs.com/ "Sequelize documentation") - A very useful ORM for managing relational databases.
 
 ### Downloading This Application
 To use this application:
@@ -35,19 +35,14 @@ mysql -u root -p
 source schema.sql
 ```
 
-6. (Optional) Enter the following command to populate your database with demo data:
-```
-source seeds.sql
-```
-
-7. Exit MySQL
+6. Exit MySQL
 ```
 exit
 ```
 
-8. Update the connections.js file with your MySQL credentials. Failing to do this will not allow the application to run properly.
+7. Update the connections.js file with your MySQL credentials. Failing to do this will not allow the application to run properly.
 
-9. Run the application from the command line:
+8. Run the application from the command line:
 ```
 node server.js
 ```
